@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# @name 3DR Iris Quadrotor SITL
+#
+# @type Quadrotor Wide
+#
+# @maintainer Julian Oes <julian@oes.ch>
+#
+
+sh /etc/init.d/rc.mc_defaults
+
+if [ $AUTOCNF = yes ]
+then
+	param set RC_MAP_AUX1 1
+fi
+
+set MIXER alpha
+
+set MIXER_AUX alpha
+
+set MAV_TYPE 2
+

@@ -1,0 +1,1 @@
+/home/tom/px4/Firmware/devel/.private/catkin_tools_prebuild/setup.zsh
